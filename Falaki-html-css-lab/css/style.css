@@ -1,0 +1,171 @@
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */
+*{
+    margin: 0;
+}
+/*Q2 : color + background image + font*/
+body{
+    color: #996633;
+    background-image: url("../assets/images/dark-wood.jpg");
+    font-family:sans-serif;
+    
+}
+/*Q3 With + max with + marge + alinged centered*/
+.container{
+    width:950px;
+    max-width:1300px;
+    margin-top:5px ;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(177, 224, 252);
+}
+/*Q4 padding of element content*/
+.content{
+    padding: 10px;
+    line-height: 1.4em;
+}
+/*Q5 Header + Nav + Footer*/
+header{
+    lighting-color: aquamarine;
+    background-color:rgb(52, 75, 90);
+}
+/*Q17 change the font size at 80% of the default size + align centre + padding bot and top*/
+footer{
+    lighting-color: aquamarine;
+    background-color: rgb(52, 75, 90);
+    font-size: 80%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+nav{
+    lighting-color: aquamarine;
+    background-color: rgb(52, 75, 90);
+}
+
+/*Q6 unordered list 0 margin + 5px padding*/
+nav ul{
+    margin:0px;
+    padding: 5px;
+}
+/*Q7 Horizontally display + margin + Uppercase*/
+nav li{
+    display:inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+/*Q8 4 pseudo classes effect to the anchor with different color*/
+nav a:link{
+    color: #000;
+}
+nav a:visited{
+    color: rgb(69, 13, 69);
+}
+nav a:hover{
+    color: rgb(144, 144, 144);
+}
+nav a:active{
+    color: #000;
+}
+
+/*Q9 anchor style(color)*/
+a{
+    color: rgb(179, 0, 255);
+}
+/*Q10 Style the three headings: h1, h2, and h3*/
+h1,h2,h3{
+    margin: 10px;
+    text-transform: uppercase;
+    lighting-color: aquamarine;
+}
+/*Q11 img-center is for the main image of the index page*/
+.img-centre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+/*Q12 Margin + Aligned : video + audio*/
+audio, video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Q13 Color + Marge + Border style for table*/
+table{
+    border-color: #000;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+/*Q14 td and th border + padding + background*/
+table th,td{
+    border-color: #000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*Q15 Uppercase and chang ethe background color of th and td in footer*/
+tfoot th,td{
+    text-transform: uppercase;
+    background-color:rgb(126, 198, 239) ;
+}
+/*Q16 title of defenition list are bold*/
+dt{
+    font-weight: bold;
+}
+/*Q18 Marge top and bot + centred horizontally*/
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*19 Defined width + margin top bot + border style and background color*/
+fieldset{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #000;
+    background-color: #8ecbf18f;
+}
+/*Q20 Italic font + Background color + Margin + Padding + Rounded border at 25px*/
+legend{
+    font-style : italic;
+    font-weight: bold;
+    background-color: rgba(28, 28, 250, 0.503);
+    margin-top: 0px;
+    margin-bottom:0px ;
+    margin-left:10px ;
+    margin-right: 10px;
+    padding-top:0px ;
+    padding-bottom:0px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+}
+/*Q21 Rounded border + Padding + Background Color*/
+input[type=submit]{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+/*Q22 same element but with hover : different Background color and change the mouse pointer */
+input[type=submit]:hover{
+    color:rgba(28, 28, 250, 0.503);
+    background-color: #aeaeae;
+    cursor: pointer;
+}
